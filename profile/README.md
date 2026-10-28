@@ -1,11 +1,12 @@
 # ktCloud Tech up 클라우드 인프라 5기 기본 프로젝트 (1팀 알파카) 
 
+<br>
 
 ## 💡프로젝트 개요 
 온프레미스 Kubernetes에 장애가 나면 AWS의 DR 서버에 같은 Terraform 코드로 같은 환경을 자동으로 만들고, 온프레가 살아나면 데이터를 가지고 되돌아오는(페일백) 하이브리드 클라우드 DR 프로젝트
 
-
-
+<br>
+<br>
 
 ## 💬기획 의도 및 주제 선정 
 
@@ -17,8 +18,8 @@
 
 <img width="770" height="401" alt="image" src="https://github.com/user-attachments/assets/7349c992-22e1-46df-8b33-c53ba5183cf9" />
 
-
-
+<br>
+<br>
 
 ## 🛠️활용한 기술 
 
@@ -31,20 +32,31 @@
 | **App / Data** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![S3 Backup](https://img.shields.io/badge/S3%20Backup-569A31?style=for-the-badge&logo=amazons3&logoColor=white) ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-231F20?style=for-the-badge&logo=openssh&logoColor=white) |
 | **Monitoring / Test** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white) ![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white) ![CSI](https://img.shields.io/badge/CSI-6B7280?style=for-the-badge) |
 
+<br>
+<br>
+
 
 ## 전체 아키텍쳐 구성도 
 
 <img width="743" height="408" alt="image" src="https://github.com/user-attachments/assets/ff5c0a89-3039-45e7-8e48-2c221814f6ca" />
+
+<br>
 
 
 ### 온프레미스 구성도 
 
 <img width="807" height="389" alt="image" src="https://github.com/user-attachments/assets/71473b8e-e39b-4f45-9252-fa268d37d184" />
 
+<br>
+
+
 ### AWS Cloud단 구성도 
 
 <img width="752" height="405" alt="image" src="https://github.com/user-attachments/assets/2c89035d-b989-4685-aa65-bfcb868907ff" />
 
+
+<br>
+<br>
 
 
 ## 👥팀원 
@@ -52,19 +64,19 @@
 <img width="780" height="364" alt="image" src="https://github.com/user-attachments/assets/248a9c29-6f71-427c-ae0f-78b96b6c4a97" />
 
 
-
-
+<br>
 
 
 ## 🗓️프로젝트 수행 절차
 
 
-
+<br>
 
 
 ## 구현 단계 
 
 
+<br>
 
 
 ## RTO / RPO
