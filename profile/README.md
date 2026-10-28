@@ -103,14 +103,14 @@ DR 서버는 평소 쿠버네티스만 설치된 상태로 대기하고, 장애�
   <tr>
     <td align="center"><img src="https://github.com/ionacat.png" width="90" /></td>
     <td align="center"><img src="https://github.com/wonee1.png" width="90" /></td>
-    <td align="center"><img src="https://github.com/junsung.png" width="90" /></td>
+    <td align="center"><img src="https://github.com/junsung202067.png" width="90" /></td>
     <td align="center"><img src="https://github.com/doycho1007.png" width="90" /></td>
     <td align="center"><img src="https://github.com/develchoi.png" width="90" /></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/ionaca">신경빈</a></td>
+    <td align="center"><a href="https://github.com/ionacat">신경빈</a></td>
     <td align="center"><a href="https://github.com/wonee1">김채원</a></td>
-    <td align="center"><a href="https://github.com/junsung">권준성</a></td>
+    <td align="center"><a href="https://github.com/junsung202067">권준성</a></td>
     <td align="center"><a href="https://github.com/doycho1007">조동연</a></td>
     <td align="center"><a href="https://github.com/develchoi">최동경</a></td>
   </tr>
