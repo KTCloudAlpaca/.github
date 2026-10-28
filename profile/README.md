@@ -1,4 +1,7 @@
-# ktCloud Tech up 클라우드 인프라 5기 기본 프로젝트 (1팀 알파카) 
+# kTCloud Tech up 클라우드 인프라 5기 기본 프로젝트 (1팀 알파카) 
+
+본 프로젝트는 kTCloud Tech up 클라우드 인프라 5기에서 진행한 기본 프로젝트입니다. 
+
 
 <br>
 
@@ -63,21 +66,21 @@ DR 서버는 평소 쿠버네티스만 설치된 상태로 대기하고, 장애�
 <br>
 
 
-## 전체 아키텍쳐 구성도 
+## 📑전체 아키텍쳐 구성도 
 
 <img width="743" height="408" alt="image" src="https://github.com/user-attachments/assets/ff5c0a89-3039-45e7-8e48-2c221814f6ca" />
 
 <br>
 
 
-### 온프레미스 구성도 
+### 🖥️ 온프레미스 구성도 
 
 <img width="807" height="389" alt="image" src="https://github.com/user-attachments/assets/71473b8e-e39b-4f45-9252-fa268d37d184" />
 
 <br>
 
 
-### AWS Cloud단 구성도 
+### 🖥️ AWS Cloud단 구성도 
 
 <img width="752" height="405" alt="image" src="https://github.com/user-attachments/assets/2c89035d-b989-4685-aa65-bfcb868907ff" />
 
