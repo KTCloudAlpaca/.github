@@ -1,4 +1,4 @@
-# kTCloud Tech up 클라우드 인프라 5기 기본 프로젝트 (1팀 알파카) 
+# ☁️KTCloud Tech up 클라우드 인프라 5기 기본 프로젝트 (1팀 알파카) 
 
 본 프로젝트는 kTCloud Tech up 클라우드 인프라 5기에서 진행한 기본 프로젝트입니다. 
 
@@ -18,7 +18,7 @@
 ## 💬기획 의도 및 주제 선정 
 
 
-### 문제 인식
+### 1. 문제 인식
 
 <img width="749" height="388" alt="image" src="https://github.com/user-attachments/assets/eca2fde7-8331-4e21-be5c-acf5325608b7" />
 
@@ -26,7 +26,7 @@
 
 <br>
 
-### 아이디어
+### 2. 아이디어
 
 <img width="781" height="362" alt="image" src="https://github.com/user-attachments/assets/2fb55067-b1ce-4718-a37d-37245c0ffbb0" />
 
@@ -34,7 +34,7 @@
 
 <br>
 
-### 차별화 포인트
+### 3. 차별화 포인트
 
 <img width="764" height="387" alt="image" src="https://github.com/user-attachments/assets/3a3a348e-aa10-43e0-aea2-49c0bf5c9535" />
 
@@ -42,7 +42,7 @@ DR 서버는 평소 쿠버네티스만 설치된 상태로 대기하고, 장애�
 
 <br>
 
-### 프로젝트 목표
+### 4. 프로젝트 목표
 
 <img width="770" height="401" alt="image" src="https://github.com/user-attachments/assets/7349c992-22e1-46df-8b33-c53ba5183cf9" />
 
@@ -146,13 +146,44 @@ DR 서버는 평소 쿠버네티스만 설치된 상태로 대기하고, 장애�
 <br>
 
 
-## 구현 단계 
+## 수행 경과 정리 
+
+
+<img width="382" height="138" alt="image" src="https://github.com/user-attachments/assets/2ac9b669-1d4f-4782-9681-70839ca6ab71" />
 
 
 <br>
 
 
-## RTO / RPO 검증 
+
+## 📊 RPO / RTO 측정
+
+### 목표와 결과
+
+| 구분 | 목표 | 측정 방법 | 결과 |
+| --- | --- | --- | --- |
+| **RPO** (목표 복구 시점) | 최대 10분 이내 | 장애 직전 누적 데이터 − 복구 후 누적 데이터 | **최대 10분 이내** |
+| **RTO** (목표 복구 시간) | 약 5~10분 이내 | 온프레미스 장애 시각 → AWS 첫 정상 응답 시각 | **평균 230.3초 (약 4분)** |
+| **Detection Time** | Heartbeat 1분 + 2회 연속 누락 (Wall Clock Window) | 마지막 Heartbeat → ALARM 전환 시각 | 전체 RTO 중 장애 감지 구간을 분리 분석 |
+
+- **RPO 구현 근거**: 10분 주기 S3 백업, Failback 시 DR DB 역동기화
+- **RTO 구성 요소**: Alarm 감지 + CodeBuild/SSM + Terraform + DB restore + DNS
+
+### 테스트 결과
+
+| 테스트 횟수 | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| RPO (분) | 10 | 10 | 10 |
+| DNS 전환 확인 (초) | 100 | 130 | 105 |
+| 서비스 복구 시간 (초) | 231 | 240 | 220 |
+| DNS 원복 확인 (초) | 186 | 191 | 190 |
+
+```
+<img width="155" height="27" alt="image" src="https://github.com/user-attachments/assets/8f26ff4e-87ff-43c0-a742-7dedc380b330" />
+
+```
+
+
 
 
 
