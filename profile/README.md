@@ -64,6 +64,40 @@
 <img width="780" height="364" alt="image" src="https://github.com/user-attachments/assets/248a9c29-6f71-427c-ae0f-78b96b6c4a97" />
 
 
+## 👥 Team
+
+<table>
+  <tr>
+    <th align="center" width="160">On-Prem · CloudWatch</th>
+    <th align="center" width="160">App · IaC · DR 자동화</th>
+    <th align="center" width="160">DNS Failover</th>
+    <th align="center" width="160">DB 백업 · 네트워크</th>
+    <th align="center" width="160">Monitoring</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/ionacat.png" width="90" /></td>
+    <td align="center"><img src="https://github.com/wonee1.png" width="90" /></td>
+    <td align="center"><img src="https://github.com/junsung.png" width="90" /></td>
+    <td align="center"><img src="https://github.com/doycho1007.png" width="90" /></td>
+    <td align="center"><img src="https://github.com/develchoi.png" width="90" /></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/아이디">신경빈</a></td>
+    <td align="center"><a href="https://github.com/wonee1">김채원</a></td>
+    <td align="center"><a href="https://github.com/아이디">권준성</a></td>
+    <td align="center"><a href="https://github.com/아이디">조동연</a></td>
+    <td align="center"><a href="https://github.com/아이디">최동경</a></td>
+  </tr>
+  <tr>
+    <td align="center">온프레미스 K8s 운영<br>Heartbeat · CloudWatch Alarm</td>
+    <td align="center">Terraform IaC · application<br>EventBridge · CodeBuild · SSM<br>recover.sh · failback.sh</td>
+    <td align="center">Route 53 · Health Check<br>Primary·Secondary 레코드<br>Failover·Failback 검증</td>
+    <td align="center">MongoDB 백업 · S3<br>AWS VPC 구성<br>RPO 검증 테스트</td>
+    <td align="center">Prometheus · Grafana<br>장애·복구 상태 검증</td>
+  </tr>
+</table>
+
+
 <br>
 
 
