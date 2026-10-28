@@ -82,11 +82,11 @@
     <td align="center"><img src="https://github.com/develchoi.png" width="90" /></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/아이디">신경빈</a></td>
+    <td align="center"><a href="https://github.com/ionaca">신경빈</a></td>
     <td align="center"><a href="https://github.com/wonee1">김채원</a></td>
-    <td align="center"><a href="https://github.com/아이디">권준성</a></td>
-    <td align="center"><a href="https://github.com/아이디">조동연</a></td>
-    <td align="center"><a href="https://github.com/아이디">최동경</a></td>
+    <td align="center"><a href="https://github.com/junsung">권준성</a></td>
+    <td align="center"><a href="https://github.com/doycho1007">조동연</a></td>
+    <td align="center"><a href="https://github.com/develchoi">최동경</a></td>
   </tr>
   <tr>
     <td align="center"><b>온프레미스, CloudWatch</b><br>K8s 클러스터, Heartbeat, Alarm<br>온프레미스 K8s 운영, 1분 Heartbeat, CloudWatch Alarm 검증</td>
