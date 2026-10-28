@@ -89,11 +89,11 @@
     <td align="center"><a href="https://github.com/아이디">최동경</a></td>
   </tr>
   <tr>
-    <td align="center">온프레미스 K8s 운영<br>Heartbeat · CloudWatch Alarm</td>
-    <td align="center">Terraform IaC · application<br>EventBridge · CodeBuild · SSM<br>recover.sh · failback.sh</td>
-    <td align="center">Route 53 · Health Check<br>Primary·Secondary 레코드<br>Failover·Failback 검증</td>
-    <td align="center">MongoDB 백업 · S3<br>AWS VPC 구성<br>RPO 검증 테스트</td>
-    <td align="center">Prometheus · Grafana<br>장애·복구 상태 검증</td>
+    <td align="center"><b>온프레미스, CloudWatch</b><br>K8s 클러스터, Heartbeat, Alarm<br>온프레미스 K8s 운영, 1분 Heartbeat, CloudWatch Alarm 검증</td>
+    <td align="center"><b>app, IaC, DR 자동화</b><br>Terraform, EventBridge, CodeBuild<br>aws-bootstrap, 복구 파이프라인, SSM, recover.sh, failback.sh, application 개발</td>
+    <td align="center"><b>DNS Failover</b><br>Route 53, Health Check<br>Primary·Secondary 레코드, Failover·Failback 검증</td>
+    <td align="center"><b>DB 백업, 네트워크, AWS VPC 구성</b><br>MongoDB, S3<br>정기 백업·복원, RPO 검증 테스트</td>
+    <td align="center"><b>모니터링</b><br>Prometheus, Grafana<br>모니터링 스택, 장애·복구 상태 검증, 관측성 확보</td>
   </tr>
 </table>
 
