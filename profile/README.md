@@ -178,10 +178,11 @@ DR 서버는 평소 쿠버네티스만 설치된 상태로 대기하고, 장애�
 | 서비스 복구 시간 (초) | 231 | 240 | 220 |
 | DNS 원복 확인 (초) | 186 | 191 | 190 |
 
-```
+
+
 <img width="155" height="27" alt="image" src="https://github.com/user-attachments/assets/8f26ff4e-87ff-43c0-a742-7dedc380b330" />
 
-```
+
 
 
 
