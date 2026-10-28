@@ -89,12 +89,8 @@ DR 서버는 평소 쿠버네티스만 설치된 상태로 대기하고, 장애�
 <br>
 
 
-## 👥팀원 
 
-<img width="780" height="364" alt="image" src="https://github.com/user-attachments/assets/248a9c29-6f71-427c-ae0f-78b96b6c4a97" />
-
-
-## 👥 Team
+## 👥 팀원
 
 <table>
   <tr>
